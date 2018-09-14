@@ -78,8 +78,8 @@
   }
 
   $(function() {
-  var CS = new correiosService()
+    var CS = new correiosService()
 
-  CS.init()
+    CS.init()
   })
 })()
