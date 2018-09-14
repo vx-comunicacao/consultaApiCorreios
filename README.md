@@ -4,7 +4,7 @@ Script para preenchimento automatico de CEP e endereço.
 # Ação requerida:
 Trocar os seletores dos elementos nas linhas 4 a 8 pelos que você está usando na aplicação
 
-# Comportamento:
+# Comportamento (atrelado ao evento 'blur' do input):
 Se você preenche UF, município, bairro e logradouro ele te traz o CEP.
 Se você preenche o CEP ele te traz os campos restantes.
 

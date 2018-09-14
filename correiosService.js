@@ -1,4 +1,5 @@
-var correiosService = function() {
+(function(){
+  var correiosService = function() {
   var baseUrl = 'https://viacep.com.br/ws/'
 
   var logradouroEl = $('#logradouro')
@@ -74,10 +75,11 @@ var correiosService = function() {
     })
   }
 
-}
+  }
 
-$(function() {
+  $(function() {
   var CS = new correiosService()
 
   CS.init()
-})
+  })
+})()
