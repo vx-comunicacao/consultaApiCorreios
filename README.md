@@ -1,5 +1,6 @@
 # consultaApiCorreios
 Script para preenchimento automatico de CEP e endereço.
+https://vx-comunicacao.github.io/consultaApiCorreios/
 
 # Ação requerida:
 Trocar os seletores dos elementos nas linhas 5 a 9 pelos que você está usando na aplicação
